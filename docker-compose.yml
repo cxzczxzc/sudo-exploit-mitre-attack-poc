@@ -1,0 +1,7 @@
+version: '3.3'
+
+services:
+  sudoexploit:
+    build: .
+    container_name: sudoexploit
+    tty: true
